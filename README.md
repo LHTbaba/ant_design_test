@@ -27,6 +27,10 @@ Scripts provided in `package.json`. It's safe to modify or add additional script
 ```bash
 npm start
 ```
+注意：
+不能使用npm run dev，具体原因见package.json文件，这个命令是禁用mock api的，用这个启动后所有接口都报错404/405
+
+![Image text](https://github.com/LHTbaba/ant_design_test/blob/liht/src/assets/image/tip.png)
 
 ### Build project
 
