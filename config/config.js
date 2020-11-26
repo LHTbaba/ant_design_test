@@ -240,6 +240,7 @@ export default defineConfig({
               name: 'account',
               icon: 'user',
               path: '/account',
+              component: '../layouts/BlankLayout',
               routes: [
                 {
                   name: 'center',
@@ -252,6 +253,11 @@ export default defineConfig({
                   icon: 'smile',
                   path: '/account/settings',
                   component: './account/settings',
+                },
+                {
+                  name: '我的收藏',
+                  icon: 'smile',
+                  path: '/account/collect',
                 },
               ],
             },
